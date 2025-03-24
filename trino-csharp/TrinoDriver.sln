@@ -18,8 +18,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trino.Client.Test", "Trino.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trino.Client.Auth", "Trino.Client.Auth\Trino.Client.Auth.csproj", "{4D4233A0-4473-4BF2-A5AA-2AA0409E7FC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEPonADODOTNET", "..\trino-SEP-Sample\SEPonADODOTNET\SEPonADODOTNET.csproj", "{9BCABA65-B61A-4E00-8C47-683B79C95F30}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,18 +88,6 @@ Global
 		{4D4233A0-4473-4BF2-A5AA-2AA0409E7FC0}.Release|x64.Build.0 = Release|Any CPU
 		{4D4233A0-4473-4BF2-A5AA-2AA0409E7FC0}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D4233A0-4473-4BF2-A5AA-2AA0409E7FC0}.Release|x86.Build.0 = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|x64.Build.0 = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Debug|x86.Build.0 = Debug|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|x64.ActiveCfg = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|x64.Build.0 = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|x86.ActiveCfg = Release|Any CPU
-		{9BCABA65-B61A-4E00-8C47-683B79C95F30}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
