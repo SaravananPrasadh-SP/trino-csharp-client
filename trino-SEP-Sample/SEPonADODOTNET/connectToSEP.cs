@@ -50,7 +50,7 @@ namespace SEPonADODOTNET
                     // Role to be tested
                     Roles = new Dictionary<string, ClientSelectedRole>()
                     {
-                        { "system", new ClientSelectedRole(ClientSelectedRole.Type.ROLE,role) }
+                        { "system", new ClientSelectedRole(ClientSelectedRole.Type.NONE,role) }
                     }
                 };
                 // Open a connection to the Trino Server

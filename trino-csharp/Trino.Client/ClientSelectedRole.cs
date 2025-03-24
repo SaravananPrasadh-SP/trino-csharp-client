@@ -50,7 +50,7 @@ namespace Trino.Client
 
         public override string ToString()
         {
-            return Type.ROLE.ToString()+"{"+Role+"}";
+            return RoleType.ToString()+"{"+Role+"}";
         }
     }
 }
