@@ -47,5 +47,10 @@ namespace Trino.Client
         {
             return new ClientSelectedRole(this.RoleType, this.Role);
         }
+
+        public override string ToString()
+        {
+            return Type.ROLE.ToString()+"{"+Role+"}";
+        }
     }
 }
